@@ -1,0 +1,24 @@
+{
+  "name": "@kaizentech/eslint-config-base",
+  "version": "1.0.0",
+  "description": "Kaizen's ESLint base config",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kaizentelekom/javascript"
+  },
+  "author": "Kaizen",
+  "license": "MIT",
+  "dependencies": {
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-plugin-import": "^2.27.5"
+  },
+  "peerDependencies": {
+    "eslint": "^8.41.0",
+    "prettier": "^2.8.8"
+  },
+  "devDependencies": {
+    "eslint": "^8.41.0"
+  }
+}
