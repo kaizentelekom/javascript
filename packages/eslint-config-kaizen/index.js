@@ -1,4 +1,13 @@
 module.exports = {
+  env: {
+    browser: true,
+    es6: true
+  },
+  parserOptions: {
+    ecmaFeatures: {
+      jsx: true
+    }
+  },
   extends: ['airbnb/rules/react', 'airbnb/rules/react-a11y', 'airbnb/hooks', '@kaizentech/base'],
   rules: {
     // ignore errors for prop types
