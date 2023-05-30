@@ -56,6 +56,17 @@ module.exports = {
     'newline-before-return': 'error',
 
     // put newline
-    'newline-after-var': ['error', 'always']
+    'newline-after-var': ['error', 'always'],
+
+    'object-curly-spacing': ['error', 'always'],
+
+    // use unix line breaks \n
+    'linebreak-style': ['error', 'unix'],
+
+    // use single quotes
+    quotes: ['error', 'single', { avoidEscape: true, allowTemplateLiterals: true }],
+
+    // use double quotes if jsx
+    'jsx-quotes': ['error', 'prefer-double']
   }
 }
