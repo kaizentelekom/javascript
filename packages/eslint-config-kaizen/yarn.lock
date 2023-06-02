@@ -199,10 +199,10 @@
     "@jridgewell/resolve-uri" "3.1.0"
     "@jridgewell/sourcemap-codec" "1.4.14"
 
-"@kaizentech/eslint-config-base@^1.1.0":
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/@kaizentech/eslint-config-base/-/eslint-config-base-1.1.0.tgz#1a13c0f63556485df6456f72d80354962f7787ba"
-  integrity sha512-Breg/52K1wnvD+e4MSGn8e/geGhqxNOhlvORqyAH3Xw5J36o5UIxBqGjZSd50n6dwtvbtPr13FPSKO1Nubb+VQ==
+"@kaizentech/eslint-config-base@^1.2.0":
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/@kaizentech/eslint-config-base/-/eslint-config-base-1.2.0.tgz#9ae8a21af2a32b3f6532084cd213dd47b4adf822"
+  integrity sha512-Kioi6ensFNeraTWHQB/3ct598CfKg+Gjue2PynSSRKvkUBjBEZcBHQVV6m8/Do/WFSOvEAoAKAEe26hQ+A9WHQ==
   dependencies:
     eslint-config-airbnb-base "^15.0.0"
     eslint-config-prettier "^8.8.0"
