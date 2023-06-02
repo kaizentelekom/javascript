@@ -26,6 +26,52 @@ module.exports = {
     ],
 
     // use 2 space indent
-    'react/jsx-indent-props': ['error', 2]
+    'react/jsx-indent-props': ['error', 2],
+
+    // use pascal case naming for component
+    'react/jsx-pascal-case': 'error',
+
+    'react/jsx-closing-bracket-location': 'error',
+
+    'react/jsx-closing-tag-location': 'error',
+
+    'react/jsx-tag-spacing': [
+      'error',
+      {
+        closingSlash: 'never',
+        beforeSelfClosing: 'always',
+        afterOpening: 'never',
+        beforeClosing: 'never'
+      }
+    ],
+
+    'react/jsx-curly-spacing': ['error', 'never', { allowMultiline: true }],
+
+    'react/jsx-boolean-value': ['error', 'never', { always: [] }],
+
+    'jsx-a11y/img-redundant-alt': 'error',
+
+    'jsx-a11y/aria-role': ['error', { ignoreNonDOM: false }],
+
+    'jsx-a11y/no-access-key': 'error',
+
+    'react/no-string-refs': 'error',
+
+    'react/jsx-wrap-multilines': [
+      'error',
+      {
+        declaration: 'parens-new-line',
+        assignment: 'parens-new-line',
+        return: 'parens-new-line',
+        arrow: 'parens-new-line',
+        condition: 'parens-new-line',
+        logical: 'parens-new-line',
+        prop: 'parens-new-line'
+      }
+    ],
+
+    'react/self-closing-comp': 'error',
+
+    'react/require-render-return': 'error'
   }
 }
