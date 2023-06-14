@@ -1,6 +1,6 @@
 {
   "name": "@kaizentech/eslint-config",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "Kaizen's ESLint config",
   "main": "index.js",
   "exports": {
