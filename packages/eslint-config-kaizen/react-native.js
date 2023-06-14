@@ -65,8 +65,8 @@ module.exports = {
     // use colors as variable
     '@kaizentech/react-native/no-color-literals': 'error',
 
-    // detect raw text
-    '@kaizentech/react-native/no-raw-text': 'error',
+    // disable raw text detech cause crash https://github.com/babel/babel/discussions/13742
+    '@kaizentech/react-native/no-raw-text': 'off',
 
     // detect unnecessary array style
     '@kaizentech/react-native/no-single-element-style-arrays': 'error'
