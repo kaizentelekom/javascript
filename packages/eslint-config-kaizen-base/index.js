@@ -26,10 +26,6 @@ module.exports = {
             group: 'sibling',
             patternOptions: { matchBase: true },
             position: 'after'
-          },
-          {
-            pattern: '@**/**',
-            group: 'internal'
           }
         ],
         pathGroupsExcludedImportTypes: ['react'],
